@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38824811A8AE0BB0084441F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F38824801A8AE0BB0084441F /* main.m */; };
+		F38824841A8AE0BB0084441F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38824831A8AE0BB0084441F /* AppDelegate.m */; };
+		F38824871A8AE0BB0084441F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38824861A8AE0BB0084441F /* ViewController.m */; };
+		F388248A1A8AE0BB0084441F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38824881A8AE0BB0084441F /* Main.storyboard */; };
+		F388248C1A8AE0BB0084441F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F388248B1A8AE0BB0084441F /* Images.xcassets */; };
+		F388248F1A8AE0BB0084441F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F388248D1A8AE0BB0084441F /* LaunchScreen.xib */; };
+		F388249B1A8AE0BB0084441F /* CircleToSquareAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F388249A1A8AE0BB0084441F /* CircleToSquareAnimationTests.m */; };
+		F38824A61A8AE2BC0084441F /* RDPolyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = F38824A51A8AE2BC0084441F /* RDPolyCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38824951A8AE0BB0084441F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38824731A8AE0BB0084441F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F388247A1A8AE0BB0084441F;
+			remoteInfo = CircleToSquareAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F388247B1A8AE0BB0084441F /* CircleToSquareAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleToSquareAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F388247F1A8AE0BB0084441F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38824801A8AE0BB0084441F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F38824821A8AE0BB0084441F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F38824831A8AE0BB0084441F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F38824851A8AE0BB0084441F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F38824861A8AE0BB0084441F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F38824891A8AE0BB0084441F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F388248B1A8AE0BB0084441F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F388248E1A8AE0BB0084441F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F38824941A8AE0BB0084441F /* CircleToSquareAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleToSquareAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38824991A8AE0BB0084441F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F388249A1A8AE0BB0084441F /* CircleToSquareAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleToSquareAnimationTests.m; sourceTree = "<group>"; };
+		F38824A41A8AE2BC0084441F /* RDPolyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPolyCircle.h; sourceTree = "<group>"; };
+		F38824A51A8AE2BC0084441F /* RDPolyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPolyCircle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38824781A8AE0BB0084441F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38824911A8AE0BB0084441F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38824721A8AE0BB0084441F = {
+			isa = PBXGroup;
+			children = (
+				F388247D1A8AE0BB0084441F /* CircleToSquareAnimation */,
+				F38824971A8AE0BB0084441F /* CircleToSquareAnimationTests */,
+				F388247C1A8AE0BB0084441F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F388247C1A8AE0BB0084441F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F388247B1A8AE0BB0084441F /* CircleToSquareAnimation.app */,
+				F38824941A8AE0BB0084441F /* CircleToSquareAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F388247D1A8AE0BB0084441F /* CircleToSquareAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F38824821A8AE0BB0084441F /* AppDelegate.h */,
+				F38824831A8AE0BB0084441F /* AppDelegate.m */,
+				F38824851A8AE0BB0084441F /* ViewController.h */,
+				F38824861A8AE0BB0084441F /* ViewController.m */,
+				F38824881A8AE0BB0084441F /* Main.storyboard */,
+				F388248B1A8AE0BB0084441F /* Images.xcassets */,
+				F388248D1A8AE0BB0084441F /* LaunchScreen.xib */,
+				F388247E1A8AE0BB0084441F /* Supporting Files */,
+				F38824A41A8AE2BC0084441F /* RDPolyCircle.h */,
+				F38824A51A8AE2BC0084441F /* RDPolyCircle.m */,
+			);
+			path = CircleToSquareAnimation;
+			sourceTree = "<group>";
+		};
+		F388247E1A8AE0BB0084441F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F388247F1A8AE0BB0084441F /* Info.plist */,
+				F38824801A8AE0BB0084441F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38824971A8AE0BB0084441F /* CircleToSquareAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F388249A1A8AE0BB0084441F /* CircleToSquareAnimationTests.m */,
+				F38824981A8AE0BB0084441F /* Supporting Files */,
+			);
+			path = CircleToSquareAnimationTests;
+			sourceTree = "<group>";
+		};
+		F38824981A8AE0BB0084441F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38824991A8AE0BB0084441F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F388247A1A8AE0BB0084441F /* CircleToSquareAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F388249E1A8AE0BB0084441F /* Build configuration list for PBXNativeTarget "CircleToSquareAnimation" */;
+			buildPhases = (
+				F38824771A8AE0BB0084441F /* Sources */,
+				F38824781A8AE0BB0084441F /* Frameworks */,
+				F38824791A8AE0BB0084441F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleToSquareAnimation;
+			productName = CircleToSquareAnimation;
+			productReference = F388247B1A8AE0BB0084441F /* CircleToSquareAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38824931A8AE0BB0084441F /* CircleToSquareAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38824A11A8AE0BB0084441F /* Build configuration list for PBXNativeTarget "CircleToSquareAnimationTests" */;
+			buildPhases = (
+				F38824901A8AE0BB0084441F /* Sources */,
+				F38824911A8AE0BB0084441F /* Frameworks */,
+				F38824921A8AE0BB0084441F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38824961A8AE0BB0084441F /* PBXTargetDependency */,
+			);
+			name = CircleToSquareAnimationTests;
+			productName = CircleToSquareAnimationTests;
+			productReference = F38824941A8AE0BB0084441F /* CircleToSquareAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38824731A8AE0BB0084441F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eric G. DelMar";
+				TargetAttributes = {
+					F388247A1A8AE0BB0084441F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = DRDP94294P;
+					};
+					F38824931A8AE0BB0084441F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F388247A1A8AE0BB0084441F;
+					};
+				};
+			};
+			buildConfigurationList = F38824761A8AE0BB0084441F /* Build configuration list for PBXProject "CircleToSquareAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38824721A8AE0BB0084441F;
+			productRefGroup = F388247C1A8AE0BB0084441F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F388247A1A8AE0BB0084441F /* CircleToSquareAnimation */,
+				F38824931A8AE0BB0084441F /* CircleToSquareAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38824791A8AE0BB0084441F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388248A1A8AE0BB0084441F /* Main.storyboard in Resources */,
+				F388248F1A8AE0BB0084441F /* LaunchScreen.xib in Resources */,
+				F388248C1A8AE0BB0084441F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38824921A8AE0BB0084441F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38824771A8AE0BB0084441F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38824871A8AE0BB0084441F /* ViewController.m in Sources */,
+				F38824A61A8AE2BC0084441F /* RDPolyCircle.m in Sources */,
+				F38824841A8AE0BB0084441F /* AppDelegate.m in Sources */,
+				F38824811A8AE0BB0084441F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38824901A8AE0BB0084441F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388249B1A8AE0BB0084441F /* CircleToSquareAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38824961A8AE0BB0084441F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F388247A1A8AE0BB0084441F /* CircleToSquareAnimation */;
+			targetProxy = F38824951A8AE0BB0084441F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38824881A8AE0BB0084441F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38824891A8AE0BB0084441F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F388248D1A8AE0BB0084441F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F388248E1A8AE0BB0084441F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F388249C1A8AE0BB0084441F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F388249D1A8AE0BB0084441F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F388249F1A8AE0BB0084441F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CircleToSquareAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F38824A01A8AE0BB0084441F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CircleToSquareAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F38824A21A8AE0BB0084441F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircleToSquareAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleToSquareAnimation.app/CircleToSquareAnimation";
+			};
+			name = Debug;
+		};
+		F38824A31A8AE0BB0084441F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircleToSquareAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleToSquareAnimation.app/CircleToSquareAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38824761A8AE0BB0084441F /* Build configuration list for PBXProject "CircleToSquareAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F388249C1A8AE0BB0084441F /* Debug */,
+				F388249D1A8AE0BB0084441F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F388249E1A8AE0BB0084441F /* Build configuration list for PBXNativeTarget "CircleToSquareAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F388249F1A8AE0BB0084441F /* Debug */,
+				F38824A01A8AE0BB0084441F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38824A11A8AE0BB0084441F /* Build configuration list for PBXNativeTarget "CircleToSquareAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38824A21A8AE0BB0084441F /* Debug */,
+				F38824A31A8AE0BB0084441F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38824731A8AE0BB0084441F /* Project object */;
+}
